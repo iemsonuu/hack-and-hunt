@@ -1,0 +1,25 @@
+services:
+  ctfd:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - UPLOAD_FOLDER=/var/uploads
+      - DATABASE_URL=sqlite:////var/uploads/ctfd.db
+      - REDIS_URL=redis://redis:6379
+      - SECRET_KEY=change_this_secret_key
+    volumes:
+      - ctfd_uploads:/var/uploads
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:6
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+
+volumes:
+  ctfd_uploads:
+  redis_data:

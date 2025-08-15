@@ -1,0 +1,8 @@
+Welcome to B64 Breakfast Challenge!
+
+Your task: Decode the following Base64 string to find the hidden flag.
+
+Base64 Encoded Message:
+ZmxhZ3tCYXNlNjRfY3JhenlfZnVuX2ZsYWd9
+
+Good luck! 🍳

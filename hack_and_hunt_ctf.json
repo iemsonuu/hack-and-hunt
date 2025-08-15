@@ -1,0 +1,61 @@
+{
+    "name": "Hack & Hunt CTF - Beginner Edition",
+    "challenges": [
+        {
+            "name": "Hidden in Source",
+            "category": "Web Exploitation",
+            "value": 50,
+            "description": "There's a secret hidden somewhere in the HTML source code. Can you find it?",
+            "flag": "flag{view_source_is_your_friend}"
+        },
+        {
+            "name": "Cookie Monster",
+            "category": "Web Exploitation",
+            "value": 100,
+            "description": "The website uses cookies for something interesting. Maybe changing a cookie value could reveal something?",
+            "flag": "flag{cookie_tampered_successfully}"
+        },
+        {
+            "name": "URL Trickster",
+            "category": "Web Exploitation",
+            "value": 150,
+            "description": "Sometimes URLs can be tricked into showing hidden pages. Can you guess the correct one?",
+            "flag": "flag{url_param_magic}"
+        },
+        {
+            "name": "Caesar\u2019s Secret",
+            "category": "Cryptography",
+            "value": 50,
+            "description": "A message has been encrypted with a Caesar cipher. Decrypt it to reveal the flag.",
+            "flag": "flag{classic_caesar_cracked}"
+        },
+        {
+            "name": "Base64 Bandit",
+            "category": "Cryptography",
+            "value": 100,
+            "description": "The text looks strange... maybe it's just Base64 encoded?",
+            "flag": "flag{base64_is_easy}"
+        },
+        {
+            "name": "Profile Stalker",
+            "category": "OSINT",
+            "value": 50,
+            "description": "Find the hidden details about the CTF organizer from their public profile.",
+            "flag": "flag{osint_profile_found}"
+        },
+        {
+            "name": "Photo Hunt",
+            "category": "OSINT",
+            "value": 100,
+            "description": "There's a location hidden inside this image. Can you find the coordinates?",
+            "flag": "flag{geolocation_success}"
+        },
+        {
+            "name": "Zip It Good",
+            "category": "Forensics",
+            "value": 150,
+            "description": "A zip file is password protected. Crack the password to retrieve the flag.",
+            "flag": "flag{unzipped_and_done}"
+        }
+    ]
+}
